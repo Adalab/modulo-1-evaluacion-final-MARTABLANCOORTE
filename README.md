@@ -13,14 +13,16 @@ Para ello seguiré lo expuesto enunciado, que he copiado y añadido en el archiv
   - Creo un archivo "Readme.md" en el que, como he dicho anteriormente, explico los pasos que he realizado hasta completar el ejercicio.
   - Creo un project board para este proyecto "Project Board-modulo-1-evaluación-final-MartaBlancoOrte" (que aunque sé que se utiliza más en grupo, me ayudará a organizarme mejor, y creo me servirá para no olvidarme de ninguna tarea indicada en el enunciado. Por ello, como lo hago privado, invito a los profesores y les pongo como administradores, por si no lo hiciese correctamente, para que puedan corregirlo igualmente.
     
-## 3. Acciones realizadas en Visual Studio code:
+## 3. Acciones realizadas en Visual Studio Code:
    - Clono el repositorio, en una nueva carpeta "modulo-1-evaluación-final-MartaBlancoOrte. 
    - Usando el enlace indicado, clono la carpeta Starter kit de Adalab, en otra carpeta que se llamará "Starter Kit de Adalab".
    - Tras realizar pasos del punto 4. con el Explorador de archivos, en la terminal hago la instalación "npm install". 
 
-## 4. Acciones realizadas con el Explorador de archivos. 
+## 4. Acciones realizadas con el Explorador de Archivos. 
    - Desde el explorador de archivos, copio y pego la carpeta de Starter Kit, sin olvidarme de los archivos ocultos.
    - Me descargo de Drive las imagenes e iconos que necesitaré para el proyecto y las pego en la carpeta "public/images".
+
+
      
 8. Acciones realizadas con Excalidraw.com y Zeplin
    - Junto con Zeppling, utilizo Excalidraw, una maravillosa herramienta (que no sabia que existía hasta ahora y me encanta! Gracias Iván e Isabel) para estudiar y pensar en la mejor forma de abordar el ejercicio. 
