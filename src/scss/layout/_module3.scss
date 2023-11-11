@@ -1,0 +1,45 @@
+.modulo3{
+    position: absolute;
+    z-index: 2;
+    grid-column: 1fr;
+    align-items: center;
+    width:320px;
+    height: 624px;
+    background-color: #eff9ff;
+    
+    &__title {
+        margin: 30px 15px 45px 15px;
+        width:290px;
+        height: 30px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        line-height: 30px;
+        color:black;
+    }
+
+    &__subtitle {
+        margin: 45px 68px 0px 68px;
+        width:184px;
+        height: 30px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        color:black;
+    }
+
+    &__text {
+        margin: 0px 70px 0px 70px;
+        width:180px;
+        height: 63px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        color:black;
+    }
+}
