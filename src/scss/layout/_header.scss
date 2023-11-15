@@ -4,7 +4,6 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-size: cover;
 
     &__menu {
         position: fixed;
@@ -21,7 +20,6 @@
     &__hero {
         display:flex;
         flex-direction: column;
-        grid-template-columns: 1fr;
         margin-top:-44px;
         justify-content: space-around;
         align-items: center;
@@ -36,7 +34,6 @@
         &__title {
             position:relative;
             z-index: 1;
-            align-items: center;
             margin: -284px 15px 10px 15px;
             width: 290px;
             height: 110px;
@@ -45,7 +42,7 @@
             font-size:42px;
             color: $white;
             line-height: 55px;
-            text-shadow: 0px 2px 3px 0px rga(0, 0, 0, 0.2)
+            text-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
         }
         
         &__text {
@@ -81,7 +78,7 @@
 }
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .header{
 
         &__menu {
@@ -112,7 +109,7 @@
 }
 
 /*Desktop*/
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .header{
         
         &__menu {
@@ -129,7 +126,7 @@
                 font-weight: bold;
                 font-size: 100px;
                 line-height: 132px;
-                text-shadow: 0px 2px 3px 0px rga(0, 0, 0, 0.5)
+                text-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
             }
             
             &__text {
@@ -138,6 +135,11 @@
                 height: 32px;
                 font-family: 'Roboto regular', sans-serif;
                 font-size:24px;
+            }
+
+            &__icon {
+                transform: translateY(335px);
+                
             }
         }
     }

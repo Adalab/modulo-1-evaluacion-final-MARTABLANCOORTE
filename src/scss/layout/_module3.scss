@@ -68,13 +68,13 @@
             line-height:45px;
             text-decoration: none;
             transition-property: background-color;
-            transition-duration: 30ms;
+            transition-duration: 0.3ms;
         }
     }
 }
 
 /*Tablet*/
-@media (min-width: 768px) {  
+@media screen and (min-width: 768px) {  
     .module3 {
 
         &__title {
@@ -121,7 +121,7 @@
 }
 
 /*Desktop*/
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .module3 {
 
         &__title {

@@ -1,7 +1,6 @@
 .module2 {
     width: 100%;
-    margin:0;
-    background-color: $white;
+    margin:-45px 0px 45px 0px;
 
     &__Insomnia {
         margin: 30px 215px 0px 15px;
@@ -64,13 +63,13 @@
             text-decoration: none;
             cursor: pointer;
             transition-property: background-color;
-            transition-duration: 30ms;
+            transition-duration: 0.3ms;
         }
     }   
 }
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .module2 {
        margin-left: 39px;
@@ -106,7 +105,7 @@
 }
 
 /*Desktop*/
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .module2 {
     
         &__Insomnia {
