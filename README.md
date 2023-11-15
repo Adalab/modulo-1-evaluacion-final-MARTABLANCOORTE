@@ -1,3 +1,36 @@
+# MODULE 1 EVALUATION 
+Here you can find my evaluation exercise.
+
+## Prerequisites:
+You can read the statement in the file "Enunciado.md" 
+
+## Tools and programming languages:
+- VISUAL STUDIO CODE (VSC)
+- HTML
+- GIT / GITHUB
+- SASS / SCSS
+
+## The application works by following these steps:
+
+- Clone this repository on your local machine using the following command:
+
+git clone https://github.com/Adalab/modulo-1-evaluacion-final-MARTABLANCOORTE.git 
+
+- Install project dependencies using npm: npm install
+
+- Start the web application: npm start
+
+- The application will run in your default browser.
+
+## Authors
+Marta Blanco Orte
+
+## If you want to contact me for any suggestion, doubt or contribution, don't hesitate to ask me. 
+
+Email: martablancoorte@gmail.com
+Linkedin: https://www.linkedin.com/in/marta-blanco-orte/
+GitHub: https://github.com/MARTABLANCOORTE)
+
 # Guia de los pasos realizados para la realización del ejercicio. 
 
 A continuación detallaré los pasos que he ido realizando hasta completar el ejercicio, pos si les sirvise de ayuda a los profesores Iván e Isabel a la hora de corregir el ejercicio. 
