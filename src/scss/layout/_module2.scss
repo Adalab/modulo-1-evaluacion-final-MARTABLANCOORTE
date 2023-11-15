@@ -1,11 +1,11 @@
-.module2{
-    width: 320px;
+.module2 {
+    width: 100%;
     margin:0;
     background-color: white;
 
     &__Insomnia {
-        margin: 30px 15px 0px 15px;
-        Width:90px;
+        margin: 30px 215px 0px 15px;
+        width: 90px;
         height:30px;
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
@@ -15,8 +15,8 @@
     }
 
     &__title {
-        margin: 0px 15px 0px 15px;
-        Width:290px;
+        margin: 0px 15px;
+        width:290px;
         height: 60px;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
@@ -28,7 +28,7 @@
 
     &__text {
         margin: 0px 15px 30px 15px;
-        Width:290px;
+        width:290px;
         height: 120px;
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
@@ -37,7 +37,7 @@
         text-align: left;
     }
 
-    &__button {
+    &__link1 {
         margin-left: 15px;
         margin-bottom: 45px;
         border: #f26002 solid 2px;
@@ -49,17 +49,89 @@
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
         align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
     
-            &__go{
-                color:white;
-                width: 124px;
-                height: 45px;
-                font-family: 'Roboto medium', sans-serif;
-                color:white;
-                font-size: 20px;
-                text-align: center;
-                text-decoration: none;
-                line-height:45px;
-            }
-    }
+        &__go{
+            width: 25px;
+            height: 45px;
+            font-family: 'Roboto medium', sans-serif;
+            color:#f26002;
+            font-size: 20px;
+            line-height:45px;
+            text-decoration: none;
+            cursor: pointer;
+            transition-duration: 30ms;
+        }
+    }   
 }
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+    .module2 {
+       
+        &__Insomnia {
+            margin: 30px 513px 0px 39px;
+            width: 216px;
+            height:30px;
+        }
+
+        &__title {
+            margin: 0px 39px;
+            width: 690px;
+            height: 45px;
+            font-size: 26px;
+            line-height: 45px;
+        }
+
+        &__text {
+            margin: 0px 39px 30px 39px;
+            width: 690px;
+            height: 60px;
+            font-size: 20px;
+        }
+
+        &__link1 {
+            margin-left: 39px;
+            margin-bottom: 60px;
+            width: 91px;
+
+        }
+    }   
+}
+
+/*Desktop*/
+@media (min-width: 1280px) {
+    .module2 {
+    
+        &__Insomnia {
+            margin: 60px 645px 0px 275px;
+            width: 360px;
+            font-size: 16px;
+        }
+    
+        &__title {
+            margin: 0px 275px;
+            width: 730px;
+            height: 45px;
+            font-size: 32px;
+            line-height: 45px;
+        }
+    
+        &__text {
+            margin: 0px 275px 30px 275px;
+            width: 730px;
+            height: 60px;
+            font-size: 20px;
+        }
+    
+        &__link1 {
+            margin-left: 275px;
+            margin-bottom: 45px;
+            width: 160px;
+        }   
+    }
+}    
