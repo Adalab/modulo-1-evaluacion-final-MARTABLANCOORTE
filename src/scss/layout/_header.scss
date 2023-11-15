@@ -5,6 +5,7 @@
     height: 100vh;
     overflow: hidden;
 
+
     &__menu {
         position: fixed;
         z-index: 2;
@@ -24,6 +25,9 @@
         justify-content: space-around;
         align-items: center;
         text-align: center;
+        background-image: url("../images/cover.jpg");
+        background-position: center;
+        background-size: cover;
        
         &__image{
             position:relative;
