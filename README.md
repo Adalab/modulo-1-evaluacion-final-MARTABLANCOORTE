@@ -25,11 +25,15 @@ git clone https://github.com/Adalab/modulo-1-evaluacion-final-MARTABLANCOORTE.gi
 ## Authors
 Marta Blanco Orte
 
-## If you want to contact me for any suggestion, doubt or contribution, don't hesitate to ask me. 
+## If you want to contact me for any suggestion, doubt or contribution, don't hesitate to ask me.
 
 Email: martablancoorte@gmail.com
+
 Linkedin: https://www.linkedin.com/in/marta-blanco-orte/
+
 GitHub: https://github.com/MARTABLANCOORTE)
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Guia de los pasos realizados para la realización del ejercicio. 
 
@@ -102,17 +106,3 @@ En todos los responsive:
   - Subo a GitHub pages.
 
 Muchas gracias por vuestra paciencia. Espero el feedback del ejercicio con entusiasmo :)
-
-
-
-
-
- 
-
-
-
-
-     
-
-
-
