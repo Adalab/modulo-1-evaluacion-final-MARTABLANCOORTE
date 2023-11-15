@@ -58,15 +58,15 @@ Para ello seguiré lo expuesto enunciado, que he copiado y añadido en el archiv
    - hago merge con la rama main. 
    - realizo un commit y push.
    - pongo al día el project board.
-   - reviso cosas importantes del enunciado, con las siguientes conclusiones de errores, que reviso y no sé como solucionar:
+   - reviso cosas importantes del enunciado, con las siguientes conclusiones de errores, que reviso y no sé como solucionar.
 
-        En todos los responsive:
-           - Tengo una franja blanca en el apartado del header, que no se solucionar, le he puesto height: 100vh, pero pone que es del header.
-             Creo que es debido al transform de la flecha del hero.
-           - Tengo un scroll horizontal, el inspector indica que viene de body, pero no consigo solucionarlo.
+     En todos los responsive:
+   - Tengo una franja blanca en el apartado del header, que no se solucionar, le he puesto height: 100vh, pero pone que es del header.
+     Creo que es debido al transform de la flecha del hero.
+   - Tengo un scroll horizontal, el inspector indica que viene de body, pero no consigo solucionarlo.
        A partir de 1428px se empieza a desconfigurar la pagina y se queda horrible. ¿Tendríamos que hacer un responsive para pantallas más grandes?
 
-  - Subo a GitHub pages.
+   - Subo a GitHub pages.
 
 Muchas gracias por vuestra paciencia. Espero el feedback del ejercicio con entusiasmo :)
 
