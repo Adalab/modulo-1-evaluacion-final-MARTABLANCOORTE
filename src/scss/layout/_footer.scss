@@ -190,3 +190,103 @@
         }   
     }
 }
+
+/*Tablet*/
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+    
+        &__circle {
+            transform: translate(360px, -120px);
+        }
+
+        &__rectangle {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-left: -20px;
+        }
+    
+        &__articles {
+            order: 2;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 210px;
+        }
+    
+        &__social {
+            order: 3;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 210px;
+            height: 90px;
+        }
+
+        &__copy-we{
+            order: 1;
+        }
+
+        &__copy {
+            margin-left: 39px;
+            margin-right: 0px;
+            width: 210px;
+        }
+        
+        &__we {
+            margin-left: 39px;
+            margin-right: 0px;
+            width: 210px;   
+        }   
+    }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1440px) {
+    .footer {
+    
+        &__circle {
+            transform: translate(620px, -120px);
+        }
+
+        &__rectangle {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-left: 240px;
+        }
+    
+        &__articles {
+            order: 2;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 210px;
+        }
+    
+        &__social {
+            order: 3;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 210px;
+            height: 90px;
+        }
+
+        &__copy-we{
+            order: 1;
+        }
+
+        &__copy {
+            margin-left: 39px;
+            margin-right: 0px;
+            width: 210px;
+        }
+        
+        &__we {
+            margin-left: 39px;
+            margin-right: 0px;
+            width: 210px;   
+        }   
+    }
+}
